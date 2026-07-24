@@ -6,3 +6,4 @@ pillow
 cloudinary
 django-cloudinary-storage
 djangorestframework
+PyJWT
