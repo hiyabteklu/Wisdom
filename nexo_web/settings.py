@@ -13,6 +13,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://wisdom-1-qp71.onrender.com',
+]
+
 # Fix for Render reverse proxy HTTPS detection
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
